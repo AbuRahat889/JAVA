@@ -1,0 +1,46 @@
+package javaproject;
+
+import java.util.Scanner;
+
+
+
+public class ControlSystem {
+    public static void main(String[] args) {
+        int num2;
+        int num1;
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Number1 = ");
+        num1 = input.nextInt();
+        
+        System.out.print("Number2 = ");
+        num2 = input.nextInt();
+       
+        //Number1 Even or Odd
+        if(num1 % 2== 0){
+            System.out.println("Number1 is Even");
+        }
+        else
+            System.out.println("Number1 is Odd");
+        
+        //Number2 Even or Odd
+        if(num2 % 2 == 0){
+            System.out.println("Number2 is Even");
+        }
+        else
+            System.out.println("Number2 is Odd");
+        
+        int sum = num1 + num2;
+        System.out.println("\n\nthe sum is :"+sum);
+        
+        if(sum > 0){
+            System.out.println("The sum is possitive :" );
+        }
+        else if(sum < 0){
+            System.out.println("The sum is negative : " );
+        }
+        else
+            System.out.println("the sum is Zerro");
+    }
+}

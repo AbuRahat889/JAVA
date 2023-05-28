@@ -1,0 +1,42 @@
+package javaproject;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Abu Rahat
+ */
+public class BitwiseOperator {
+    public static void main(String[] args) {
+        int num1,num2;
+        int or ,and ,xor;
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter Two number : ");
+        num1 = input.nextInt();
+        num2 = input.nextInt();
+        
+        
+        and = num1 & num2; // '&' this is 'and' bitwise operator
+        System.out.println("This is and bitwise poerator: " + and);
+        
+        or = num1 | num2; // '|' this is 'or' bitwise operator
+        System.out.println("This is or bitwise poerator: " + or);
+        
+        xor = num1 ^ num2; // '^' this is 'xor' bitwise operator
+        System.out.println("This is xor bitwise poerator: " + xor);
+       
+    }
+}
+
+
+
+/* ****ANSWER****
+binary number
+3=0 1 1 
+4=1 0 0 
+
+& = 0 0 0 = 0
+| = 1 1 1 = 7
+^ = 1 1 1 = 7
+*/

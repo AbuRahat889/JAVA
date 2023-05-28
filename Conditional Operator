@@ -1,0 +1,22 @@
+package javaproject;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Abu Rahat
+ */
+public class ConditionalOparetor {
+    public static void main(String[] args) {
+        Scanner input1 = new Scanner(System.in);
+        int num1,num2,large,equal;
+        
+        System.out.print("Enter two number :");
+        num1 = input1.nextInt();
+        num2 = input1.nextInt();
+        
+        large = (num1 > num2) ? num1 : num2; // conditional Oparetor
+        System.out.println("Large number is : " + large);
+   
+    }
+}

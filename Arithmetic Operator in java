@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class ArithmeticOperator {
+    public static void main(String[] args) {
+        
+        int num1, num2,sum,sub,mul,mod;
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the velue1: ");
+         num1 = input.nextInt();
+         //value1 = num1 ;
+         
+        System.out.print("Enter the velue2: ");
+        num2 = input.nextInt();
+        //value2 = num2;
+        
+        sum = num1 + num2;
+        sub = num1 - num2;
+        mul = num1 * num2;
+        double div = (double)num1 / num2;
+        mod = num1 % num2;
+        
+        System.out.println("sumetion is " +sum);
+        System.out.println("substruction is " +sub);
+        System.out.println("multiplication is " +mul);
+        System.out.println("divides is "+div);
+        System.out.println("moduless is "+mod);
+    }
+}

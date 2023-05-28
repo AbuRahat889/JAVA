@@ -1,0 +1,24 @@
+package javaproject;
+
+import java.util.Scanner;
+
+public class UserInput {
+    public static void main(String[] args) {
+        String name,university;
+        int age;
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your name ,age & University : ");
+        
+        name = input.nextLine();
+        age = input.nextInt();
+        input.nextLine();      //buffer off korte hobe
+        university = input.nextLine();
+        
+        System.out.println("Your name is :" + name);
+        System.out.println("Your age is :" + age);
+        System.out.println("Your University is :" + university);
+        
+    }
+    
+}

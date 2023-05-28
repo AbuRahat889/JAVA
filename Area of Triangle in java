@@ -1,0 +1,33 @@
+package javaproject;
+
+import java.util.Scanner;
+ 
+public class AreaTriangle {
+    
+    static void tempuratur(){
+        
+    
+}
+    public static void main(String[] args) {
+        int base, height;
+        double result;
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter Base :");
+        base = input.nextInt();
+        
+        System.out.print("Enter Base :");
+        height = input.nextInt();
+        
+        
+        result = 0.5 * (base * height);
+        System.out.println("\n Area is :" +result);
+        
+        result = base + height;
+        System.out.println("sum :" + result);
+        
+        
+        
+    }
+}

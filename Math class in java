@@ -1,0 +1,34 @@
+package javaproject;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Abu Rahat
+ */
+public class Practis {
+    public static void main(String[] args){
+    Scanner obj1 = new Scanner(System.in);
+    System.out.print("Enter any number :");
+    int num1 = obj1.nextInt();
+    int num2 = obj1.nextInt();
+    
+    //maximum number
+    System.out.println("Maximun number is : " + Math.max(num1 , num2));
+    
+    //minimum number
+    System.out.println("Minimun number is : " + Math.min(num1 , num2));
+    
+    //absolute number
+    System.out.println("Absolute number is :" + Math.abs(num2));
+    
+    //power return double type value
+    System.out.println("Num1 to the power of Num2 : " + Math.pow(num1, num2));
+    
+    // PI return Double type value
+    System.out.println("Pi value : " + Math.PI);
+    }
+}
+
+/*show deffarent types of math class:
+https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html */
